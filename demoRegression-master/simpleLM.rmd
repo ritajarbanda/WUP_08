@@ -47,3 +47,11 @@ summary.lm(simp)
 ```
 
 Residual standard error: 5.376 on 52 degrees of freedom, Adjusted R-squared: 0.7476
+
+```{r}
+headlen <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(simp)
+summary.lm(headlen)
+```
+
