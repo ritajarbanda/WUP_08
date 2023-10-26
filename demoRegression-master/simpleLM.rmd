@@ -81,3 +81,6 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(weight)
 summary.lm(weight)
 ```
+
+Residual standard error: 5.4 on 52 degrees of freedom, Adjusted R-squared: 0.7.  
+
