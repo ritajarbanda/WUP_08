@@ -75,4 +75,9 @@ summary.lm(age)
 
 Residual standard error: 7.5 on 52 degrees of freedom, Adjusted R-Squared: 0.50.
 
-
+```{r}
+weight <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(weight)
+summary.lm(weight)
+```
