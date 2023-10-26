@@ -39,3 +39,9 @@ summary.lm(simp)
 
 Residual standard error: 4.939 on 52 degrees of freedom 72 Multiple R-squared:0.791, Adjusted R-squared:0.7869.
 
+```{r}
+simp <- lm(LENGTH~NECK,data=bears)
+plot(LENGTH~NECK,data=bears)
+abline(simp)
+summary.lm(simp)
+```
